@@ -1,0 +1,155 @@
+body{
+    --color-primary: #27355C;
+    --color-secondary: #ECDB91;
+    --color-secondary-dark: #dec75e;
+    --color-error: #cc3333;
+    --color-success: #4bb544;
+    --border-radius: 4px;
+    
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    height: 100vh;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background: #27355C;
+    font-size: 18px;
+}
+
+.logo{
+    height: 80px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+}
+
+.container{
+    width: 400px;
+    max-width: 400px;
+    margin: auto;
+    padding: 2rem;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    background: #E3E4EB;
+}
+
+.container,
+.form__input,
+.form__button {
+    font: 500 1rem 'Roboto', sans-serif;
+}
+
+.form--hidden{
+    display: none;
+}
+
+.form > *:first-child{
+    margin-top: 0;
+}
+
+.form > *:last-child{
+    margin-bottom: 0;
+}
+
+.form__title{
+    margin-bottom: 2rem;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.form__message{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form__message--success{
+    color: var(--color-success);
+}
+
+.form__message--error{
+    color: var(--color-error);
+}
+
+.form__input-group{
+    margin-bottom: 1rem;
+}
+
+.form__input{
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    outline: none;
+    background: #eee;
+    transition: background 0.2s, border-color 0.2s;
+}
+
+.form__input:focus{
+    border-color: var(--color-secondary);
+    background: #fff;
+}
+
+.form__input--error{
+    color: var(--color-error);
+    border-color: var(--color-error);
+}
+
+.form__input-error-message{
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: var(--color-error);
+}
+
+.form__button{
+    width: 100%;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    opacity: none;
+    cursor: pointer;
+    background: #ECDB91;
+    margin-bottom: 2rem;
+}
+
+.form__button:hover {
+    background: #dec75e;
+}
+
+.form__button:active {
+    transform: scale(0.98);
+}
+
+.form__text{
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+.form__link{
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.form__link:hover{
+    text-decoration: underline;
+}
+
+footer {
+    font-size: 12px;
+    color: #E3E4EB;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #252525;
+}

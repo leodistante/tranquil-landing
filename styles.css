@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    background-color: #27355C;
+    font-size: 16px;
+    color: #E3E4EB;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    align-items: center;
+    padding: 16px 5%;
+}
+
+.logo{
+    cursor: pointer;
+    height: 70px;
+    width: auto;
+}
+
+.nav-links{
+    cursor: pointer;
+}
+
+nav a:hover{
+    color: #ECDB91;
+}
+
+.nav-links li{
+   display: inline-block; 
+   padding: 0px 20px;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: #ECDB91;
+    font-family: 'Roboto', sans-serif;
+    color: #27355C;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #dec75e;
+}
+
+.about-us{
+    font-size: 20px;
+    text-align: center;
+    padding: 50px;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+.au-health{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+footer {
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #252525;
+}
